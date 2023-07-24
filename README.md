@@ -4,8 +4,9 @@ The metric is written in Boyer-Lindquist coordinate system: (t,r,theta,phi). The
 The metric signature used is (+,-,-,-).  
   
 The calculation is performed on matematica 13.0, with:  
-CPU: AMD Ryzen 5 5625U  
-GPU: AMD ATI Barcelo  
+
+- CPU: AMD Ryzen 5 5625U  
+- GPU: AMD ATI Barcelo  
   
 References:  
 [https://arxiv.org/abs/gr-qc/0302095]  
