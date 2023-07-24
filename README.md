@@ -5,6 +5,8 @@ The metric signature used is (+,-,-,-).
 
 The calculation is performed on matematica 13.0, with:  
 CPU: AMD Ryzen 5 5625U  
-GPU: AMD ATI Barcelo
+GPU: AMD ATI Barcelo  
 
-[https://arxiv.org/abs/gr-qc/0302095]
+References:  
+[https://arxiv.org/abs/gr-qc/0302095]  
+[https://arxiv.org/abs/astro-ph/9912320]  
