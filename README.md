@@ -2,6 +2,7 @@
 
 The metric is written in Boyer-Lindquist coordinate system: (t,r,theta,phi). The following change of variable is made to reduce calculation time: y=cos(theta).  
 The metric signature used is (+,-,-,-).  
+We place ourselves in the natural unit system i.e: G = c = 1/(4*pi*epsilon) = 1.  
   
 The calculation is performed on matematica 13.0, with:  
 
