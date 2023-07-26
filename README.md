@@ -15,6 +15,8 @@ Kerr-Newman ones by taking the apropriate limit of the black hole under consider
 - Reissner-Nordström spacetime: Kerr-Newman limit when a -> 0
 - Schwarzschild spacetime: Kerr-Newman limit when Q -> 0 and a -> 0
 
+---
+
 The calculation is performed on `Matematica 13.0`, on AMD Ryzen 5 5625U and AMD ATI Barcelo.
 
 ## References
