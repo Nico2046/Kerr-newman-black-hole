@@ -1,8 +1,8 @@
 # Calculation of curvature invariants for Kerr-Newman spacetime
 
-The goal is to calculate the curvature invariants associate to the Kerr-Newman metric. To do this we use the standard tensor calculus of general relativity: we start from the metric tensor, then 
+The goal is to calculate the curvature invariants associate to the Kerr-Newman metric. To do this we use the standard tensor calculus of general relativity. 
 
-The metric is written in Boyer-Lindquist coordinate system: (t,r,theta,phi). The following change of variable is made to reduce calculation time: y=cos(theta).  
+The metric is written in Boyer-Lindquist coordinate system: (t,r,theta,phi). The following change of variable could be used to reduce calculation time: y=cos(theta).  
 The metric signature used is (+ - - -).  
 We set: G = c = 1/(4 pi epsilon) = 1.  
 
@@ -19,5 +19,4 @@ References:
 The calculation is performed on matematica 13.0, with:  
 
 - CPU: AMD Ryzen 5 5625U  
-- GPU: AMD ATI Barcelo
-
+- GPU: AMD ATI Barcelo  
