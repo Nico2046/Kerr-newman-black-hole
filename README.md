@@ -17,7 +17,7 @@ Kerr-Newman ones by taking the apropriate limit of the black hole under consider
 
 ---
 
-The calculation is performed on `Matematica 13.0`, on AMD Ryzen 5 5625U and AMD ATI Barcelo.
+The calculation is performed on `Matematica 13.0`, on AMD Ryzen 5 5625U and AMD ATI Barcelo. The order of magnitude of calculation time is the second.
 
 ## References
 
