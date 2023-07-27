@@ -3,8 +3,8 @@
 The goal is to calculate the curvature invariants associate to the Kerr-Newman metric.
 To do this we use the standard tensor calculus of general relativity.
 
-The metric is written in Boyer-Lindquist coordinate system: (t,r,theta,phi).
-The following change of variable could be used to reduce calculation time: y=cos(theta).
+The metric is written in Boyer-Lindquist coordinate system: $(t,r,\theta,\phi)$.
+The following change of variable could be used to reduce calculation time: $y=\cos(\theta)$.
 The metric signature used is $(+ - - -)$.
 We set: $G = c = \frac{1}{4 \pi \epsilon} = 1$.
 
