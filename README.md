@@ -1,7 +1,7 @@
 # Calculation of curvature invariants for Kerr-Newman spacetime
 
 The goal is to calculate the curvature invariants associate to the Kerr-Newman metric.
-To do this we use the standard tensor calculus of general relativity.
+To do this we use the standard tensor calculus of general relativity. We verify also that Kerr-Newman metric is a solution of Einstein equation in presence of electromagnetic field. Finally we plot the Kretschmann scalar as depending of the two parameters $Q$ the electric charge of the black hole, and $a$ the spin parameter of the black hole.
 
 The metric is written in Boyer-Lindquist coordinate system: $(t,r,\theta,\phi)$.
 The following change of variable could be used to reduce calculation time: $y=\cos(\theta)$.
