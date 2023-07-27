@@ -11,9 +11,9 @@ We set: $G = c = \frac{1}{4 \pi \epsilon} = 1$.
 The curvature invariants of other black hole spacetimes can be deducted from the
 Kerr-Newman ones by taking the apropriate limit of the black hole under consideration:
 
-- Kerr spacetime: Kerr-Newman limit when Q -> 0
-- Reissner-Nordström spacetime: Kerr-Newman limit when a -> 0
-- Schwarzschild spacetime: Kerr-Newman limit when Q -> 0 and a -> 0
+- Kerr spacetime: Kerr-Newman limit when $Q\rightarrow 0$  
+- Reissner-Nordström spacetime: Kerr-Newman limit when $a\rightarrow 0$  
+- Schwarzschild spacetime: Kerr-Newman limit when $Q\rightarrow 0$ and $a\rightarrow 0$  
 
 ---
 
