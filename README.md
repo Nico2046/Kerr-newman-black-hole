@@ -6,7 +6,7 @@ To do this we use the standard tensor calculus of general relativity. We verify 
 The metric is written in Boyer-Lindquist coordinate system: $(t,r,\theta,\phi)$.
 The following change of variable could be used to reduce calculation time: $y=\cos(\theta)$.
 The metric signature used is $(+ - - -)$.
-We set: $G = c = \frac{1}{4 \pi \epsilon} = 1$.
+We set: $G = c = \frac{1}{4 \pi \epsilon_0} = 1$.
 
 The curvature invariants of other black hole spacetimes can be deducted from the
 Kerr-Newman ones by taking the apropriate limit of the black hole under consideration:
