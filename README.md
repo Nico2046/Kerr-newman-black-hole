@@ -12,20 +12,12 @@ We set:
 - $\frac{1}{4 \pi \epsilon_0} = 1$
 ---
 The following change of variable could be used to reduce calculation time:  
-$\begin{align}
-  \left\{
-    \begin{array}{ll}
-      y &= \cos(\vartheta) \\
-      \mathrm{d} y &= - \sin(\vartheta) \,\mathrm{d} \vartheta
-    \end{array}
-  \right.
-\end{align}$
+$y=\cos(\vartheta)$  
+$\mathrm{d}y= -\sin(\vartheta) \,\mathrm{d} \vartheta$.  
 
 then we have $\sin^2(\vartheta)=(1-y^2)$.  
 thus:  
-$
-\mathrm{d} \vartheta^2=\frac{\mathrm{d} y^2}{(1-y^2)}\,.
-$
+$\mathrm{d}\vartheta^2=\frac{\mathrm{d} y^2}{(1-y^2)}$.
 ---
 The curvature invariants of other black hole spacetimes can be deducted from the
 Kerr-Newman ones by taking the apropriate limit of the black hole under consideration:
