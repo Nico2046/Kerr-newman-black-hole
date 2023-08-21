@@ -12,16 +12,14 @@ We set:
 - $\frac{1}{4 \pi \epsilon_0} = 1$
 ---
 The following change of variable could be used to reduce calculation time:  
-$
-\begin{align}
+$\begin{align}
   \left\{
     \begin{array}{ll}
       y &= \cos(\vartheta) \\
       \mathrm{d} y &= - \sin(\vartheta) \,\mathrm{d} \vartheta
     \end{array}
   \right.
-\end{align}
-$
+\end{align}$
 
 then we have $\sin^2(\vartheta)=(1-y^2)$.  
 thus:  
