@@ -1,6 +1,6 @@
 # Calculation of curvature invariants for Kerr-Newman spacetime
 
-The goal is to calculate the curvature invariants associate to the Kerr-Newman metric. To do this we use the standard tensor calculus of general relativity. First we verify that Kerr-Newman metric is a solution of Einstein equation in presence of electromagnetic field. Then we calculate the curvature invariants of the Riemann tensor. Finally we plot the Kretschmann scalar as an exemple.  
+The goal is to calculate the curvature invariants associate to the Kerr-Newman metric. To do this we use the standard tensor calculus of general relativity. First we verify that Kerr-Newman metric is a solution of Einstein equation in presence of electromagnetic field. Then we calculate the curvature invariants associated to the Riemann, Weyl and Ricci tensor. Finally we plot the Kretschmann scalar.  
 
 The metric is written in Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$.  
 The metric signature used is $(+ - - -)$.  
@@ -19,6 +19,10 @@ $\mathrm{d}y= -\sin(\vartheta) \mathrm{d} \vartheta$.
 then we have: $\sin^2(\vartheta)=(1-y^2)$.  
 thus:  
 $\mathrm{d}\vartheta^2=\frac{\mathrm{d} y^2}{(1-y^2)}$.
+
+---
+
+The relation between the curvature invariants of the Riemann, Weyl and Ricci tensor is only valid in dimension four.
 
 ---
 
