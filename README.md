@@ -8,7 +8,7 @@ The metric signature used is $(+ - - -)$.
 We set:
 - $G = 1$
 - $c = 1$
-- $\frac{1}{4 \pi \epsilon_0} = 1$
+- $4\pi\epsilon_0 = 1$
 
 ---
 
