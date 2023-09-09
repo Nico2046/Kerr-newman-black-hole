@@ -21,11 +21,10 @@ thus:
 $\mathrm{d}\vartheta^2=\frac{\mathrm{d} y^2}{(1-y^2)}$.
 
 ---
-
-The relation between the curvature invariants of the Riemann, Weyl and Ricci tensor:  
+  
+In dimension four, the curvature invariants associated with the Riemann, Weyl and Ricci tensor are related by :  
 $K_1=I_1+2 R_{\mu\nu}R^{\mu\nu}-\frac{1}{3}R^2$  
 $K_3=-I_1+2 R_{\mu\nu}R^{\mu\nu}-\frac{2}{3}R^2$  
-is only valid in dimension four.
 
 ---
 
