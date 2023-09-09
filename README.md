@@ -35,7 +35,7 @@ The Kerr-Newman metric is the most general solution to Einstein's equation descr
 
 ---
 
-The calculation is performed on `Matematica 13`, on AMD Ryzen 5 5625U and AMD ATI Barcelo. The order of magnitude of calculation time is the second.
+Calculations are performed on `Matematica 13`, on AMD Ryzen 5 5625U and AMD ATI Barcelo. The order of magnitude of calculation time is the second.
 
 ## References
 
