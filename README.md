@@ -1,8 +1,8 @@
-# Calculation of curvature invariants for Kerr-Newman spacetime
+# Calculation of curvature invariants for black hole spacetimes
 
-The goal is to calculate the curvature invariants associate to the Kerr-Newman metric. To do this we use the standard tensor calculus of general relativity. First we verify that Kerr-Newman metric is a solution of Einstein equation in presence of electromagnetic field. Then we calculate the curvature invariants associated to the Riemann, Weyl and Ricci tensor. We plot the Kretschmann scalar. And finally we deduce the curvature invariants of the Kerr, Reissner-Nordström and Schwarzschild metric taking the appropriate Kerr-Newman spacetime limits.
+The aim is to calculate curvature invariants associate to black hole metrics. We start by the Kerr-Newman one, which is the most general solution of Einstein's equation describing stationary black holes. First we verify that Kerr-Newman metric is a solution of Einstein equation in presence of electromagnetic field. Then we calculate the curvature invariants associated to the Riemann, Weyl and Ricci tensor of the metric. Then we plot the Kretschmann scalar, one of the local invariants of the Riemann tensor. And finally we deduce the curvature invariants of the Kerr, Reissner-Nordström and Schwarzschild metric taking the appropriate Kerr-Newman spacetime limits.  
 
-The metric is written in Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$.  
+The metrics is written in Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$.  
 The metric signature used is $(+ - - -)$.  
 
 We set:
@@ -12,17 +12,18 @@ We set:
 
 ---
 
-The following change of variable could be used to reduce calculation time:  
+The following change of variable is used to reduce calculation time:  
 $y=\cos(\vartheta)$  
 $\mathrm{d}y= -\sin(\vartheta) \mathrm{d} \vartheta$.  
 
 then we have: $\sin^2(\vartheta)=(1-y^2)$.  
 thus:  
+  
 $\mathrm{d}\vartheta^2=\frac{\mathrm{d} y^2}{(1-y^2)}$.
 
 ---
   
-In dimension four, the curvature invariants associated with the Riemann, Weyl and Ricci tensor are related by :  
+In dimension four, the curvature invariants associated with the Riemann, Weyl and Ricci tensor are related by:  
 $K_1=I_1+2 R_{\mu\nu}R^{\mu\nu}-\frac{1}{3}R^2$  
 $K_3=-I_1+2 R_{\mu\nu}R^{\mu\nu}-\frac{2}{3}R^2$  
 
