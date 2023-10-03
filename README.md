@@ -2,7 +2,7 @@
 
 The aim is to calculate curvature invariants associate to black hole metrics. We start by the Kerr-Newman one, which is the most general solution of Einstein's equation describing stationary black holes. First we verify that Kerr-Newman metric is a solution of Einstein equation in presence of electromagnetic field. Then we calculate the curvature invariants associated to the Riemann, Weyl and Ricci tensor of the metric. Then we plot the Kretschmann scalar, one of the local invariants of the Riemann tensor. And finally we deduce the curvature invariants of the Kerr, Reissner-Nordström and Schwarzschild metric taking the appropriate Kerr-Newman spacetime limits.  
 
-The metrics is written in Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$.  
+The metrics are written in Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$.  
 The metric signature used is $(+ - - -)$.  
 
 We set:
