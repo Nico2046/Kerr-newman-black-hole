@@ -17,7 +17,8 @@ The following change of variable is used to reduce calculation time:
 $y=\cos(\vartheta)$  
 $\mathrm{d}y= -\sin(\vartheta) \mathrm{d} \vartheta$.  
 
-then we have: $\sin^2(\vartheta)=(1-y^2)$.  
+then we have:  
+$\sin^2(\vartheta)=(1-y^2)$.  
 
 thus:  
   
