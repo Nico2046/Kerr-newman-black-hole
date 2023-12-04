@@ -14,15 +14,18 @@ We are working within a natural unit system such that:
 ---
 
 The following change of variable is used to reduce calculation time:  
+
 $y=\cos(\vartheta)$  
 $\mathrm{d}y= -\sin(\vartheta) \mathrm{d} \vartheta$.  
 
 then we have:  
+
 $\sin^2(\vartheta)=(1-y^2)$.  
 
 thus:  
   
 $\mathrm{d}\vartheta^2=\frac{\mathrm{d} y^2}{(1-y^2)}$.  
+
 It is recommended to use it for calculations related to the Kerr-Newman metric.
 
 ---
