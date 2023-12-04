@@ -1,11 +1,12 @@
 # Calculation of curvature invariants for black hole spacetimes
 
-The aim is to calculate curvature invariants associate to black hole metrics. We start by the Kerr-Newman one, which is the most general solution of Einstein's equation describing stationary black holes. First we verify that Kerr-Newman metric is a solution of Einstein equation in presence of electromagnetic field. Then we calculate the curvature invariants associated to the Riemann, Weyl and Ricci tensor of the metric. Then we plot the Kretschmann scalar, one of the local invariants of the Riemann tensor. And finally we deduce the curvature invariants of the Kerr, Reissner-Nordström and Schwarzschild metric taking the appropriate Kerr-Newman spacetime limits.  
+  The goal of the project is to calculate the curvature invariants associated with metrics describing black holes, solutions to the Einstein equations. To achieve this, we start with the Kerr-Newman metric, which represents the most general solution describing a four-dimensional, stationary, axisymmetric, and asymptotically flat spacetime in the presence of an electromagnetic field. 
 
-The metrics are written in Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$.  
-The metric signature used is $(+ - - -)$.  
+  We begin by verifying that the Kerr-Newman metric is indeed a solution to the Einstein equations. Subsequently, in a separate script, we compute the curvature invariants associated with the Riemann, Weyl, and Ricci tensors for this metric. Finally, we will deduce the curvature invariants associated with the Kerr, Reissner-Nordström, and Schwarzschild metrics by taking appropriate limits of the Kerr-Newman spacetime.  
+  
+The coordinate system utilized throughout the project is the Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$. The metric signature used is $(+ - - -)$.  
 
-We set:
+We are working within a natural unit system such that:
 - $G = 1$
 - $c = 1$
 - $4\pi\epsilon_0 = 1$
@@ -17,9 +18,11 @@ $y=\cos(\vartheta)$
 $\mathrm{d}y= -\sin(\vartheta) \mathrm{d} \vartheta$.  
 
 then we have: $\sin^2(\vartheta)=(1-y^2)$.  
+
 thus:  
   
-$\mathrm{d}\vartheta^2=\frac{\mathrm{d} y^2}{(1-y^2)}$.
+$\mathrm{d}\vartheta^2=\frac{\mathrm{d} y^2}{(1-y^2)}$.  
+It is recommended to use it for calculations related to the Kerr-Newman metric.
 
 ---
   
@@ -36,7 +39,7 @@ The Kerr-Newman metric is the most general solution to Einstein's equation descr
 
 ---
 
-Calculations are performed on `Matematica 13`, on AMD Ryzen 5 5625U. The order of magnitude of calculation time is the second.
+Calculations are performed on `Matematica 13`, with AMD Ryzen 5 5625U.
 
 ## References
 
