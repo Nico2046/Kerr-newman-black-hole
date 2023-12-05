@@ -6,7 +6,7 @@
   
 The coordinate system utilized throughout the project is the Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$. The metric signature used is $(+ - - -)$.  
 
-We are working within a natural unit system such that:
+We are working within a natural (Stoney) unit system such that:
 - $G = 1$
 - $c = 1$
 - $4\pi\epsilon_0 = 1$
