@@ -1,8 +1,8 @@
 # Calculation of curvature invariants for black hole spacetimes
 
-  The goal of the project is to calculate the curvature invariants associated with metrics describing black holes, solutions to the Einstein equations. To achieve this, we start with the Kerr-Newman metric, which represents the most general solution describing a four-dimensional, stationary, axisymmetric, and asymptotically flat spacetime in the presence of an electromagnetic field. 
+The objective of this project is to calculate curvature invariants linked to metrics that describe black holes, solutions derived from the Einstein equations. To accomplish this, we initiate the process with the Kerr-Newman metric, which serves as the most comprehensive solution characterizing a four-dimensional, stationary, axisymmetric, and asymptotically flat spacetime in the presence of an electromagnetic field.  
 
-  We begin by verifying that the Kerr-Newman metric is indeed a solution to the Einstein equations. Subsequently, in a separate script, we compute the curvature invariants associated with the Riemann, Weyl, and Ricci tensors for this metric. Finally, we will deduce the curvature invariants associated with the Kerr, Reissner-Nordström, and Schwarzschild metrics by taking appropriate limits of the Kerr-Newman spacetime.  
+Our initial step involves confirming that the Kerr-Newman metric indeed satisfies the Einstein equations. Subsequently, in a distinct script, we compute the curvature invariants associated with the Riemann, Weyl, and Ricci tensors specific to this metric. Ultimately, we intend to derive the curvature invariants related to the Kerr, Reissner-Nordström, and Schwarzschild metrics by appropriately limiting the Kerr-Newman spacetime.  
   
 The coordinate system utilized throughout the project is the Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$. The metric signature used is $(+ - - -)$.  
 
