@@ -1,4 +1,4 @@
-# Calculation of curvature invariants for black hole spacetimes
+# Determining curvature invariants for the Kerr-Newman black hole
 
 The objective of this project is to calculate curvature invariants linked to metrics that describe black holes, solutions derived from the Einstein equations. To accomplish this, we initiate the process with the Kerr-Newman metric, which serves as the most comprehensive solution characterizing a four-dimensional, stationary, axisymmetric, and asymptotically flat spacetime in the presence of an electromagnetic field.  
 
