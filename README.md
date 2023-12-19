@@ -3,13 +3,26 @@
 The objective of this project is to calculate curvature invariants linked to metrics that describe black holes, solutions derived from the Einstein equations. To accomplish this, we initiate the process with the Kerr-Newman metric, which serves as the most comprehensive solution characterizing a four-dimensional, stationary, axisymmetric, and asymptotically flat spacetime in the presence of an electromagnetic field.  
 
 Our initial step involves confirming that the Kerr-Newman metric indeed satisfies the Einstein equations. Subsequently, in a distinct script, we compute the curvature invariants associated with the Riemann, Weyl, and Ricci tensors specific to this metric. Ultimately, we intend to derive the curvature invariants related to the Kerr, Reissner-Nordström, and Schwarzschild metrics by appropriately limiting the Kerr-Newman spacetime.  
+
+---
   
-The coordinate system utilized throughout the project is the Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$. The metric signature used is $(+ - - -)$.  
+The coordinate system utilized throughout the project is the Boyer-Lindquist coordinate system: $(t,r,\vartheta,\varphi)$ and the metric signature used is $(+ - - -)$.  
 
 We are working within a natural (Stoney) unit system such that:
 - $G = 1$
 - $c = 1$
-- $4\pi\epsilon_0 = 1$
+- $4\pi\epsilon_0 = 1$  
+
+
+The Kerr-Newman metric is then:  
+$\mathrm{d}s^2= \frac{\Delta-a^2 \sin^2(\vartheta)}{\Sigma}\,\mathrm{d}t^2+ \frac{a \sin^2(\vartheta) \, (r^2 + a^2 - \Delta)}{\Sigma}\,\mathrm{d}t\mathrm{d}\varphi - \frac{\Sigma}{\Delta}\,\mathrm{d}r^2 - \Sigma\,\mathrm{d}\vartheta^2 + \frac{a \sin^2(\vartheta) \, (r^2 + a^2 - \Delta)}{\Sigma}\,\mathrm{d}\varphi\mathrm{d}t - \sin^2(\vartheta) \left\{ \frac{(r^2 + a^2)^2- \Delta \,a^2 \sin^2(\vartheta)}{\Sigma} \right\}\,\mathrm{d}\varphi^2$  
+
+with:  
+$\begin{align} \Sigma &= r^2 + a^2 \cos^2(\vartheta) \\ \Delta &= r^2 + a^2 + Q^2 - 2Mr \end{align}$  
+with the extra condition: $M^2 \geq Q^2+a^2$.  
+
+The electromagnetic potential is written:  
+$A_\mu = -\frac{Q\,r}{\Sigma}\,\mathrm{d}t + \frac{a\,Q\,r \sin^2(\vartheta)}{\Sigma}\,\mathrm{d}\varphi$  
 
 ---
 
@@ -43,7 +56,7 @@ The Kerr-Newman metric is the most general solution to Einstein's equation descr
 
 ---
 
-Calculations are performed on `Matematica 13`, with AMD Ryzen 5 5625U.
+Calculations are performed on `Matematica 13`, with CPU AMD Ryzen 5 5625U.
 
 ## References
 
