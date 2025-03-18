@@ -45,11 +45,11 @@ It is recommended to use it for calculations related to the Kerr-Newman metric.
 In dimension four, the curvature invariants associated with the Riemann, Weyl and Ricci tensor are related by:
 
 $$
-K_1 = I_1+2 R_{\mu\nu} \, R^{\mu\nu}-\frac{1}{3}R^2
+K_1 = I_1+2 R_{\mu\nu} R^{\mu\nu}-\frac{1}{3} R^2
 $$
 
 $$
-K_3 = -I_1+2 R_{\mu\nu} \, R^{\mu\nu}-\frac{2}{3}R^2
+K_3 = -I_1+2 R_{\mu\nu} R^{\mu\nu}-\frac{2}{3} R^2
 $$
 
 ---
